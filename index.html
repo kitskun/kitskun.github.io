@@ -4,115 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="Css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="Css/styles.css">
-    <title>Homework 4 reworked</title>
+    <title>Homework 4</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="logo">
-                mart
+<div class="wrapper">
+    <header class="header">
+        <div class="logo">mart</div>
+        <nav class="menu">
+            <a class="menu__item" href="#">home</a>
+            <a class="menu__item" href="#">about us</a>
+            <a class="menu__item" href="#">page</a>
+            <a class="menu__item" href="#">shop</a>
+            <a class="menu__item" href="#">blog</a>
+            <a class="menu__item" href="#">contact us</a>      
+        </nav>
+    </header>
+    <main>
+        <div class="title">featured products</div>
+        <section class="product">
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product1.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product2.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product9.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product4.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product3.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product5.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product6.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+            <ul class="product__list">
+                <img class="list__item_img" src="source/product8.png" alt="">
+                <ul class="list__item_wrap">
+                    <li class="list__item_name">blue tshirt</li>
+                    <li class="list__item_cost">26$</li>
+                </ul>    
+            </ul>
+        </section>
+        <div class="title">latest news</div>
+        <section class="news">
+            <div class="news__list">
+                <img class="list__item_img-news" src="source/ipad-632394_960_720.jpg" alt="">
+                <div class="list__item-title">Lorem Ipsum. Proin gravida nibh vek velit auctor aliquet. Anean</div>
+                <div class="list__item-text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulpurate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</div>
+                <button class="list__item-button">read more</button> 
             </div>
-            <nav class="menu">
-                <a class="menu__item" href="#">home</a>
-                <a class="menu__item" href="#">about us</a>
-                <a class="menu__item" href="#">page</a>
-                <a class="menu__item" href="#">shop</a>
-                <a class="menu__item" href="#">blog</a>
-                <a class="menu__item" href="#">contact us</a>
-            </nav>
-        </header>
-        <main class="products">
-            <div class="title">
-                featured products
-            </div>
-            <div class="products__list">
-                <div class="products__list__item">
-                    <img class="list__item__img" src="src\product1.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">blue tshirt</div>
-                        <div class="list__item__cost">26$</div>
+            <div class="news__list">
+                    <img class="list__item_img-news" src="source/girls.jpg" alt="">
+                    <div class="list__item-title">Lorem Ipsum. Proin gravida nibh vek velit auctor aliquet. Anean</div>
+                    <div class="list__item-text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulpurate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</div>
+                    <button class="list__item-button">read more</button> 
+                </div>
+                <div class="news__list">
+                        <img class="list__item_img-news" src="source/bus.jpg" alt="">
+                        <div class="list__item-title">Lorem Ipsum. Proin gravida nibh vek velit auctor aliquet. Anean</div>
+                        <div class="list__item-text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulpurate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</div>
+                        <button class="list__item-button">read more</button> 
                     </div>
-                </div>
-                <div class="products__list__item">
-                    <img class="list__item__img" src="src\product2.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">woman shirt</div>
-                        <div class="list__item__cost">31$</div>
-                    </div>
-                </div>
-                <div class="products__list__item">
-                    <img class="list__item__img" src="src\product3.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">yellow tshirt</div>
-                        <div class="list__item__cost">21$</div>
-                    </div>
-                </div>
-                <div class="products__list__item">
-                    <img class="list__item__img" src="src\product4.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">cool lingerie</div>
-                        <div class="list__item__cost">51$</div>
-                    </div>
-                </div>
-                <div class="products__list__item">
-                    <img class="list__item__img" src="src\product5.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">blue tshirt</div>
-                        <div class="list__item__cost">26$</div>
-                    </div>
-                </div>
-                <div class="products__list__item">
-                    <img class="list__item__img" src="src\product6.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">woman shirt</div>
-                        <div class="list__item__cost">31$</div>
-                    </div>
-                </div>
-                <div class="products__list__item">
-                    <img class="list__item__img" src="src\product8.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">yellow tshirt</div>
-                        <div class="list__item__cost">21$</div>
-                    </div>
-                 </div>
-                 <div class="products__list__item">
-                    <img class="list__item__img" src="src\product9.png" alt="">
-                    <div class="list__item__wrap">
-                        <div class="list__item__name">cool lingerie</div>
-                        <div class="list__item__cost">51$</div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="news">
-            <div class="title">
-                latest news
-            </div>
-            <div class="news__wrap">
-                <div class="news__box">
-                    <img class="news__box__img" src="src\ipad-632394_960_720.jpg" alt="">
-                    <h2 class="news__box__title">Lorem ipsum dolor sit amet consectetur adipisicing  </h2>
-                    <p class="news__box__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandaeharum voluptate inventore quam in sed, esse et at culpa, dolor consequuntur animi consequatur obcaecati libero. Dicta asperiores commodi ducimus in.</p>
-                    <button class="news__box__button">Read More</button>
-                </div>
-                <div class="news__box">
-                    <img class="news__box__img" src="src\slide1.jpg" alt="">
-                    <h2 class="news__box__title">Lorem ipsum dolor sit amet consectetur adipisicing  </h2>
-                    <p class="news__box__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae harum voluptate inventore quam in sed, esse et at culpa, dolor consequuntur animi consequatur obcaecati libero. Dicta asperiores commodi ducimus in.</p>
-                    <button class="news__box__button">Read More</button>
-                </div>
-                <div class="news__box">
-                    <img class="news__box__img" src="src\product-img-5.jpg" alt="">
-                    <h2 class="news__box__title">Lorem ipsum dolor sit amet consectetur adipisicing  </h2>
-                    <p class="news__box__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae harum voluptate inventore quam in sed, esse et at culpa, dolor consequuntur animi consequatur obcaecati libero. Dicta asperiores commodi ducimus in.</p>
-                    <button class="news__box__button">Read More</button>
-                </div>
-            </div>
-        </footer>
-    </div>
+        </section>
+    </main>
+</div>
 </body>
 </html>
